@@ -1,0 +1,155 @@
+* { /*Universal Selector*/
+    font-family: 'Courier New';
+    background-color: beige;
+}
+
+h1, h3 { /*Universal Selector*/
+    color: #b92b27;
+}
+
+#login { /*ID Selector*/
+    background-color: white;
+}
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote { /*Class Selector*/
+    background-color: green;
+    color: aliceblue;
+}
+
+#myid p {
+    color: red;
+}
+
+.bgimage { /*Backround image*/
+    width: 400px;
+    height: 200px;
+    background-color: #7aa674;
+    margin: 10px auto;
+    background-size: cover;
+    background-image: url(file:///D:/Death%20Note.jpeg);
+    color: aliceblue;
+}
+
+p + h3 { /*Adjacent Sibling Combinator*/
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+.pos { /*Position*/
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static {
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+/*Simple smily face*/
+.face {
+    width: 400px;
+    height: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+}
+.mouth {
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.lefteye, .righteye {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.righteye {
+    left: 250px;
+}
+
+h1::first-letter { /*pseudo element*/
+    color: pink;
+}
+p::first-line {
+    color: aqua;
+}
+p::selection {
+    background-color: #ffa511;
+}
+
+#facebook {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading {
+    color: #1b74e4;
+}
+#searchbtn {
+    color: white;
+    background-color: black;
+}
+
+/*Traffic Light*/
+#outer {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 8px;
+    border-radius: 50%;
+}
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}

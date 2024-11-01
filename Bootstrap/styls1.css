@@ -1,0 +1,10 @@
+.container {
+
+}
+
+.btn-info { /*change color of bootstrap*/
+    background-color: pink;
+}
+.btn-info:hover {
+    background-color: pink;
+}

@@ -1,0 +1,86 @@
+/*Box Model*/
+#border1 {
+    height: 200px; /*height*/
+    width: 500px; /*width*/
+    background-color: blanchedalmond;
+
+    border-width: 5px; /*border*/
+    border-style: solid;
+    border-color: black;
+    border-left-color: blue; /*Border Sides*/
+    border-top-style: dashed ;
+
+    padding-top: 15px; /*padding*/
+
+    margin-bottom: 25px; /*margin*/
+    margin-left: 25px;
+}
+
+h1 {
+    border: 2px, dotted, purple; /*Border Shorthand*/
+    width: 250px;
+    border-radius: 10px 100px / 120px;
+}
+
+#border2 {
+    height: 200px; /*height*/
+    width: 500px; /*width*/
+    background-color: blanchedalmond;
+    border-width: 5px; /*border*/
+    border-style: solid;
+    border-color: black;
+
+    border-radius: 15px; /*border radius*/
+    border-bottom-left-radius: 25%;
+
+    padding: 25px;
+
+    margin: 20px; /*margin*/
+}
+
+button {
+    border: 2px, solid, black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+}
+
+h2 {
+    display: inline; /*Display Element*/
+    background-color: pink;
+}
+span {
+    display: block;
+    background-color: yellowgreen;
+}
+h3 {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block; /*inline-block*/
+}
+
+/*Practice questions*/
+#box {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+li {
+    display: inline-block;
+}   

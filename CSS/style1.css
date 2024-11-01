@@ -1,0 +1,43 @@
+h3 {
+    color: rgb(25, 204, 70);
+    background-color: rgb(13, 33, 146);
+}
+
+h4 {
+    color: orange;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
+
+p1 {
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    text-decoration: wavy red underline; /*text-decoration*/
+    line-height: 1.5; /*line-height*/
+    letter-spacing: 5px; /*letter-spacing*/
+    font-family: Arial, Helvetica, sans-serif; /*font-family*/
+}
+
+h6 {
+    font-weight: bolder; /*Font Weight*/
+    font-family: impact;
+}
+
+h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 990px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+} 

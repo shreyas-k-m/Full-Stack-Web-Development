@@ -1,0 +1,89 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /*animation-name: widthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;*/
+
+    animation: colAnimation 3s ease-in 0s infinite normal; /*shorthand*/
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes widthAnimation {
+    from {
+        width: 10px;
+        background-color: blue;
+    }
+    to {
+        width: 400px;
+        background-color: aquamarine;
+        border-radius: 15px;
+    }
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes colAnimation {
+    0% {
+        background-color: rgb(16, 158, 146);
+    }
+    50% {
+        background-color: rgb(196, 21, 21);
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+
+h2 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/*Media Queries*/
+@media (width: 400px) {
+    h2 {
+        background-color: red;
+    }
+}
+@media (min-width: 500px) {
+    h2 {
+        background-color: greenyellow;
+    }
+}
+@media (max-width: 200px) {
+    h2 {
+        background-color: rgb(185, 31, 199);
+    }
+}
+@media (min-width: 200px) and (max-width: 300px){
+    h2 {
+        background-color: rgb(31, 199, 185);
+    }
+}
+@media (orientation:landscape) {
+    h2 {
+        background-color: brown;
+    }
+}

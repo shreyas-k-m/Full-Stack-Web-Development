@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html level 3</title>
+</head>
+<body>
+    <form action="/server">
+        <input/> <!--Form element input-->
+        <input type="text"/>
+        <input type="password"/>
+        <input type="number"/>
+        <input type="time"/>
+        <input type="date"/>
+        <input type="color"/>
+        <hr>
+
+        <label> <!--Label-->
+        Username
+        <input type="text" placeholder="Enter Username"/> <!--placeholder-->
+        </label>
+        <label>
+        Password
+        <input type="password" placeholder="Enter Password"/>
+        </label>
+        <br>
+
+        <!--Label classical approach-->
+        <div>
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Enter Username" id="Username"/>
+        </div>
+        <div>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Password" id="password"/>
+        </div>
+        <div>
+            <button>Submit</button> <!--Button-->
+            <button type="submit">Submit</button>
+            <button type="button">hello</button>
+            <button type="reset">reset</button>
+            <br>
+            <input type="button" value="click me">
+            <input type="submit" value="click me">
+        </div>
+
+        <input type="text" placeholder="Enter Username" id="Username" name="Username"> <!--Name Attribute-->
+        <button>submit</button>
+        <br>
+
+        <input type="checkbox" id="age" name="age" checked> <!--Check Box-->
+        <label for="age">i am 18+</label>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple"><!--Radio button-->
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana"value="banana">
+            <label for="banana">banana</label>
+        </div>
+        
+
+        <div>
+            Choose your profession
+        <select name="profession" id="profession"> <!--Select(dropdown element)-->
+            <option>Select Your Option</option>
+            <option value="stu" selected>Student</option>
+            <option value="dev">Developer</option>
+        </select>
+        </div>
+
+        <label for="vol">Select Your Volume level:</label> <!--Range-->
+        <input type="range" min="0" max="100" name="vol" step="10" value="40">
+
+        <label for="feedback">please leave a feedback</label>
+        <textarea name="feedback" id="feedback" placeholder="Write Here"></textarea>
+        <button>submit</button>
+    </form>
+    <hr>
+
+    <!--Practice questions-->
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search In Google" name="q">
+        <button>Search</button>
+    </form>
+    <hr>
+
+    <h1>Registration Form</h1>
+    <form action="/action">
+        <div>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </div>
+        <div>
+            <label for="gender">Please Select Gender</label>
+            <select name="gender" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+        </div>
+        <div>
+            Do you Agree For Terms And Service
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">Yes i agree</label>
+        </div>
+        <button>Submit</button>
+    </form>
+    <hr>
+
+    <table border="black">
+        <caption>
+        Student Information
+        </caption>
+        <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+        </tr>
+        <tr>
+        <th>City</th>
+        <th>House</th>
+        </tr>
+        <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+        </tr>
+        <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+        </tr>
+        <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+        </tr>
+        </table>
+        <hr>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" />
+            <br /><br />
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="female" value="female" />
+            <label for="female">Female</label>
+            <br /><br />
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="nepal">Nepal</option>
+            <option value="canada">Canada</option>
+            </select>
+            <br /><br />
+            <label for="message">Message:</label><br />
+            <textarea name="message" id="message" cols="30"
+            rows="4"></textarea
+            ><br /><br />
+            <input type="checkbox" name="newsletter" id="newsletter" />
+            <label for="newsletter">Subscribe?</label>
+            <br /><br />
+            <button>Submit</button>
+            </form>
+            <hr>
+
+            <h2>Feedback Form</h2>
+            <form action="/contact">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="Write your name" id="name" />
+            <br /><br />
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Write your email" id="email"
+            />
+            <br /><br />
+            <label for="message">Message: </label><br />
+            <textarea name="message" id="message" cols="30"
+            rows="4"></textarea>
+            <br /><br />
+            <label for="rating">Rate us our of 5:</label><br />
+            <input type="radio" name="rating" id="one" value="one" />
+            <label for="one">1</label><br />
+            <input type="radio" name="rating" id="two" value="two" />
+            <label for="two">2</label><br />
+            <input type="radio" name="rating" id="three" value="three" />
+            <label for="three">3</label><br />
+            <input type="radio" name="rating" id="four" value="four" />
+            <label for="four">4</label><br />
+            <input type="radio" name="rating" id="five" value="five" />
+            <label for="five">5</label><br />
+            <br /><br />
+            <button>Send your message!</button>
+            </form>
+
+</body>
+</html>
