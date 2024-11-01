@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+# Build folder
+build/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+# IDE/Editor settings
+.vscode/
+.idea/
+*.sublime*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+# MongoDB or SQLite databases
+*.db
+# JavaScript and CSS files that are minified
+*.min.js
+*.min.css
